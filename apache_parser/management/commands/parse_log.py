@@ -85,8 +85,6 @@ class Command(BaseCommand):
             result = []
             i = 0
             for f in file:
-                # if i > 10:
-                #     break
                 if i > 0:
                     # Подготовка к записи
                     result = self.normalize_data(f, result)
