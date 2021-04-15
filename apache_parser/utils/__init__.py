@@ -12,7 +12,6 @@ def request_apache_log(base_url):
             time.sleep(2)
             continue
         else:
-            print('====Success request get====')
             return response
     else:
         raise requests.exceptions.ConnectionError(
